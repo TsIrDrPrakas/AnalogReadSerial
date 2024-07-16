@@ -1,8 +1,8 @@
 # AnalogReadSerial
 This is guide to test Serial data reading using Aurdino Uno via Wokwi
 
->> Refer the wiring diagram in attachment
->> Copy the following code
+>> Refer the wiring diagram in attachment;
+>> Copy the following code;
 
 void setup() {
   // put your setup code here, to run once:
