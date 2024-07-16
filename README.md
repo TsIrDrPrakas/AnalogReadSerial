@@ -1,17 +1,25 @@
 # AnalogReadSerial
-This is guide to test Serial data reading using Arduino Uno via Wokwi
-https://wokwi.com/projects/403540223948784641
->> Refer the wiring diagram in attachment;
->> Copy the following code;
 
+This guide demonstrates how to test serial data reading using an Arduino Uno via Wokwi.
+
+## Project Links
+- [Wokwi Project Simulation](https://wokwi.com/projects/403540223948784641)
+
+## Instructions
+1. Refer to the wiring diagram provided in the attachment.
+2. Copy and upload the following code to your Arduino Uno:
+
+```cpp
 void setup() {
-  // put your setup code here, to run once:
+  // Initialize serial communication at 9600 bits per second:
   Serial.begin(9600);
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  // Read the input on analog pin A0:
   int sensorValue = analogRead(A0);
+  // Print the sensor value to the Serial Monitor:
   Serial.println(sensorValue);
+  // Wait for a millisecond:
   delay(1);
 }
