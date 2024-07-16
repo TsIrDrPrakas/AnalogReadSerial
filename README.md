@@ -1,5 +1,5 @@
 # AnalogReadSerial
-This is guide to test Serial data reading using Aurdino Uno via Wokwi
+This is guide to test Serial data reading using Arduino Uno via Wokwi
 
 >> Refer the wiring diagram in attachment;
 >> Copy the following code;
